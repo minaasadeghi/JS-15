@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.color-palette {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.color-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rectangles {
+    display: flex;
+    gap: 10px;
+}
+
+.rectangle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
